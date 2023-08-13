@@ -1,3 +1,16 @@
+<link rel="stylesheet" href="cruda.css">
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
 <?php
 ##permite acesso as variaves dentro do aquivo conexao
 require_once('../conexao.php');
@@ -91,3 +104,6 @@ if(isset($_GET['excluir'])){
 
         
 ?>
+
+</body>
+</html>

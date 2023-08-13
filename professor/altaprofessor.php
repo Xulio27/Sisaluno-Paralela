@@ -42,24 +42,24 @@
 
 ?>
 <form method="POST" action="crudaprofessor.php">
-    <div class="container">
-        <div class="form">
+    <div class="primeiro">
+        <div class="segundo">
             <form action="#">
-                <div class="form-header">
-                    <div class="title">
+                <div class="cabecalho">
+                    <div class="titulo">
                         <h1>Alterar Professor</h1>
                     </div>
                 </div>
 
-                <div class="input-group">
+                <div class="conteudo">
 
                     <div class="cx1">
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for=""> Professor<br></label>
                             <input type="text" name="nomeprof" value="<?php echo $nomeprof;?>" required>
                         </div>
 
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for="">IDADE<br></label>
                             <input type="text" name="idade" required value="<?php echo $idade;?>">
                         </div>
@@ -67,24 +67,24 @@
                     </div>
 
                     <div class="cx2">
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for="">SIAPE<br></label>
                             <input type="text" name="siape" required value="<?php echo $siape;?>">
                         </div>
 
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for="">CPF<br></label>
                             <input type="number" name="cpf" required value="<?php echo $cpf;?>">
                         </div>
                     </div>
 
                     <div class="cx4">
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for="">Data de Nascinento<br></label>
                             <input type="date" name="datanascimento" required value="<?php echo $datanascimento;?>">
                         </div>
 
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for="">Endereço<br></label>
                             <input type="text" name="endereco" required value="<?php echo $endereco;?>">
                         </div>
@@ -94,7 +94,7 @@
 
                 <input type="hidden" name="id" value="<?php echo $id;?>">
 
-                <div class="login-button">
+                <div class="cadastrar">
                     <input type="submit" name="update" value="ALTERAR">
                 </div>
             </form>
@@ -104,7 +104,7 @@
     </div>
 
     <div class="posicionar">
-        <div class="voltar-button">
+        <div class="voltar">
             <button class="button"><a href="listaprofessor.php">VOLTAR</a></button>
         </div>
     </div>

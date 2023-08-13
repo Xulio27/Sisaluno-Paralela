@@ -42,25 +42,25 @@
 
 ?>
 <form method="POST" action="crudaluno.php">
-    <div class="container">
-        <div class="form">
+    <div class="primeiro">
+        <div class="segundo">
             <form action="#">
-                <div class="form-header">
-                    <div class="title">
+                <div class="cabecalho">
+                    <div class="titulo">
                         <h1>Alterar Aluno</h1>
                     </div>
                 </div>
 
-                <div class="input-group">
+                <div class="conteudo">
 
                     <div class="cx1">
 
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for=""> ALUNO<br></label>
                             <input type="text" name="nome" value="<?php echo $nome;?>" required>
                         </div>
 
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for="">IDADE<br></label>
                             <input type="number" name="idade" value="<?php echo $idade;?>" required>
                         </div>
@@ -69,7 +69,7 @@
 
                     <div class="cx3">
 
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for="">STATUS<br></label>
                             <select name="estatus" id="">
                                 <option value="1">APROVADO</option>
@@ -81,12 +81,12 @@
 
                     <div class="cx2">
 
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for="">ENDEREÇO<br></label>
                             <input type="text" name="endereco" value="<?php echo $endereco;?>" required>
                         </div>
 
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for="">DATA ALUNO<br></label>
                             <input type="date" name="dataluno" value="<?php echo $dataluno;?>" required>
                         </div>
@@ -97,7 +97,7 @@
 
                 </div>
 
-                <div class="login-button">
+                <div class="cadastrar">
                     <input type="submit" name="update" value="ALTERAR">
                 </div>
             </form>
@@ -108,7 +108,7 @@
 
 
     <div class="posicionar">
-        <div class="voltar-button">
+        <div class="voltar">
             <button class="button"><a href="../index.php">VOLTAR</a></button>
         </div>
     </div>

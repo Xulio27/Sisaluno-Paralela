@@ -43,48 +43,48 @@
   
 ?>
 <form method="POST" action="crudadisciplina.php">
-    <div class="container">
-        <div class="form">
+    <div class="primeiro">
+        <div class="segundo">
             <form action="#">
-                <div class="form-header">
-                    <div class="title">
+                <div class="cabecalho">
+                    <div class="titulo">
                         <h1>Alterar Disciplina</h1>
                     </div>
                 </div>
 
-                <div class="input-group">
+                <div class="conteudo">
 
                     <div class="cx1">
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for=""> Disciplina<br></label>
                             <input type="text" name="disciplina" required value="<?php echo $disciplina;?>">
                         </div>
 
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for="">CARGO HORARIA<br></label>
                             <input type="text" name="ch" required value="<?php echo $ch;?>">
                         </div>
                     </div>
 
                     <div class="cx2">
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for="">SEMESTRE<br></label>
                             <input type="number" name="semestre" required value="<?php echo $semestre;?>">
                         </div>
 
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for="">ID DO PROFESSOR<br></label>
                             <input type="number" name="idprofessor" required value="<?php echo $idprofessor;?>">
                         </div>
                     </div>
 
                     <div class="cx4">
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for="">NOTA 01<br></label>
                             <input type="number" name="nota1" required value="<?php echo $nota1;?>">
                         </div>
 
-                        <div class="input-box">
+                        <div class="lacuna">
                             <label for="">NOTA 02<br></label>
                             <input type="number" name="nota2" required value="<?php echo $nota2;?>">
                         </div>
@@ -94,7 +94,7 @@
 
                 <input type="hidden" name="id" value="<?php echo $id;?>">
 
-                <div class="login-button">
+                <div class="cadastrar">
                     <input type="submit" name="update" value="ALTERAR">
                 </div>
             </form>
@@ -104,7 +104,7 @@
     </div>
 
     <div class="posicionar">
-        <div class="voltar-button">
+        <div class="voltar">
             <button class="button"><a href="../index.php">VOLTAR</a></button>
         </div>
     </div>
